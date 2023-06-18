@@ -288,6 +288,10 @@ input {
     text-align: center;
 }
 
+ul#iti-0__country-listbox {
+    width: 250px;
+}
+
 /* ======================= */
 
 /* ======================= */
@@ -304,7 +308,7 @@ input {
     gap: 20px;
 }
 
-.caddy_golfer p{
+.caddy_golfer p {
     font-size: var(--normal-font-size);
     font-weight: 600;
     color: var(--title-color);
@@ -353,7 +357,7 @@ input {
 }
 
 /* ----------------- */
-.iti.iti--allow-dropdown.iti--show-flags{
+.iti.iti--allow-dropdown.iti--show-flags {
     width: 100%;
 }
 
@@ -720,41 +724,41 @@ Rate Page
 }
 
 .upload-container {
-  text-align: center;
-  margin-top: 20px;
-  width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
 }
 
 .upload-label {
-  display: inline-block;
-  cursor: pointer;
-  padding: 10px;
-  background: var(--bg-color);
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
-  width: 100%;
-  padding: 18px 20px;
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px;
+    background: var(--bg-color);
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    padding: 18px 20px;
 }
 
 .upload-label:hover {
-  background-color: #d0d0d0;
+    background-color: #d0d0d0;
 }
 
 .camera-icon {
-  width: 20px;
-  height: 20px;
-  vertical-align: middle;
-  margin-right: 5px;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
 }
 
 .upload-text {
-  display: inline-block;
-  vertical-align: middle;
-  font-size: 16px;
-  color: #333;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    color: #333;
 }
 
-.mode_list .list .user_img{
+.mode_list .list .user_img {
     width: 70px;
 }
 
@@ -763,19 +767,19 @@ Rate Page
 pre {
     margin: 0 !important;
     display: inline-block;
-  }
-  
-  .token.operator,
-  .token.entity,
-  .token.url,
-  .language-css .token.string,
-  .style .token.string,
-  .token.variable {
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
     background: none;
-  }
-  
-  input,
-  button {
+}
+
+input,
+button {
     height: 35px;
     margin: 0;
     padding: 6px 12px;
@@ -783,17 +787,19 @@ pre {
     font-family: inherit;
     font-size: 100%;
     color: inherit;
-  }
-  input[disabled],
-  button[disabled] {
+}
+
+input[disabled],
+button[disabled] {
     background-color: #eee;
-  }
-  
-  input,
-  select {
+}
+
+input,
+select {
     border: 1px solid #ccc;
     width: 250px;
-  }
+}
+
 /* ==================== */
 
 
@@ -801,7 +807,7 @@ pre {
 Profile_QR_code Page
 =========================== */
 
-.qr_code_area{
+.qr_code_area {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -809,7 +815,7 @@ Profile_QR_code Page
     align-items: center;
 }
 
-.export_qr_code{
+.export_qr_code {
     width: 18px;
     margin-left: 20px;
     position: absolute;
