@@ -795,3 +795,25 @@ pre {
     width: 250px;
   }
 /* ==================== */
+
+
+/* ========================
+Profile_QR_code Page
+=========================== */
+
+.qr_code_area{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.export_qr_code{
+    width: 18px;
+    margin-left: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
