@@ -136,7 +136,13 @@ img {
     color: var(--primary-color);
     transition: all 0.5s ease-in-out;
     font-size: 14px;
+    font-weight: 600;
     cursor: pointer;
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+    border:  1px solid var(--title-color);
 }
 
 .btn:hover {
@@ -822,4 +828,46 @@ Profile_QR_code Page
     top: 0;
     right: 0;
     cursor: pointer;
+}
+
+
+
+/* ========================
+Dashboard Page
+=========================== */
+
+.home_content .d_item {
+    border: 1px solid var(--title-color);
+    border-radius: 8px;
+    width: 100%;
+    padding: 20px;
+}
+
+
+.home_content .d_item .card .amount{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background: #E0F0E6;
+    border-radius: 9px;
+    margin-top: 20px;
+}
+
+.home_content .d_item .card .btn_group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.home_content .d_item .card .btn_group .btn{
+   color: var(--white-color);
+   background: var(--title-color);
+}
+
+.home_content .d_item .card .btn_group .btn,
+.home_content .d_item .card .btn_group .btn_s{
+   padding: 15px 10px;
 }
