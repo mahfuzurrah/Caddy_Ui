@@ -1,56 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/all.min.css" />
     <link rel="stylesheet" href="assets/css/fontawesome.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.41.0/apexcharts.min.css" <script
-        src="assets/js/style.js">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.41.0/apexcharts.min.css"
+    />
     <link rel="stylesheet" href="assets/css/style.css" />
-</head>
+  </head>
 
-<body>
-    <div class="body_area screen  home_content">
-        <div class="top_nav" style="width: 100%; justify-content: space-between; align-items: center">
-            <a href="dashboard.html" class="top_back_icon">
-                <img src="assets/img/logo.png" alt="" />
-            </a>
-            <a href="dashboard.html" class="top_back_icon">
-                <i class="fa-solid fa-bars icons"></i>
-            </a>
-        </div>
-        <div class="container">
-            <div class="wrapper">
-                <div class="d_item">
-                    <div class="card">
-                        <p>YOUR BALANCE</p>
-                        <h1 style="font-size: 36px; margin: 20px 0;">£50.25</h1>
-                        <div class="amount">
-                            <h1>
-                                <img src="assets/img/Icons/Union.svg" alt=""> 100.000
-                            </h1>
-                            <span>£2.000,00</span>
-                        </div>
-                        <div class="amount" style="background: #EAF0FF;">
-                            <h1>
-                                <img src="assets/img/Icons/Union.svg" alt=""> 100.000
-                            </h1>
-                        </div>
-                        <div class="btn_group">
-                            <a href="" class="btn">Top up OPIN</a>
-                            <a href="" class="btn_s">Convert to Cash</a>
-                        </div>
-                        <div id="chart"></div>
-                    </div>
-                </div>
-                <div class="d_item">
-                    
-                </div>
+  <body>
+    <div
+      class="body_area screen home_content"
+      style="overflow-y: scroll; scroll-behavior: smooth"
+    >
+      <div
+        class="top_nav"
+        style="width: 100%; justify-content: space-between; align-items: center"
+      >
+        <a href="dashboard.html" class="top_back_icon">
+          <img src="assets/img/logo.png" alt="" />
+        </a>
+        <a href="dashboard.html" class="top_back_icon">
+          <i class="fa-solid fa-bars icons"></i>
+        </a>
+      </div>
+      <div class="container">
+        <div class="wrapper content" style="min-height: 100%">
+          <div class="d_item">
+            <div class="card">
+              <p>YOUR BALANCE</p>
+              <h1 style="font-size: 36px; margin: 20px 0">£50.25</h1>
+              <div class="amount">
+                <h1><img src="assets/img/Icons/Union.svg" alt="" /> 100.000</h1>
+                <span>£2.000,00</span>
+              </div>
+              <div class="amount" style="background: #eaf0ff">
+                <h1><img src="assets/img/Icons/Union.svg" alt="" /> 100.000</h1>
+              </div>
+              <div class="btn_group">
+                <a href="" class="btn">Top up OPIN</a>
+                <a href="" class="btn_s">Convert to Cash</a>
+              </div>
+              <div id="chart"></div>
             </div>
+          </div>
+          <div class="d_item mt-2">
+            <div class="card sm_row_card">
+              <div class="card_body">
+                <p class="sm_row_title">OPIN TOKENS</p>
+                <div class="tokens">
+                  <h1><img src="assets/img/Icons/Union.svg" alt="" /> 80</h1>
+                  <span>£22.00</span>
+                </div>
+              </div>
+              <div class="card_body">
+                <img src="assets/img/Group 7256.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="d_item mt-2">
+            <div class="card sm_row_card">
+              <div class="card_body">
+                <p class="sm_row_title">CASH TIPS</p>
+                <div class="tokens">
+                  <h1>
+                    <img src="assets/img/Icons/Union.svg" alt="" /> £50.25
+                  </h1>
+                  <span></span>
+                </div>
+              </div>
+              <div class="card_body">
+                <img src="assets/img/Group 7255.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="d_item mt-2">
+            <div class="card sm_row_card">
+              <div class="card_body">
+                <p class="sm_row_title">RATING</p>
+                <div class="tokens">
+                  <h1><img src="assets/img/Icons/Union.svg" alt="" /> 4/5.0</h1>
+                  <span></span>
+                </div>
+              </div>
+              <div class="card_body">
+                <img src="assets/img/Group 7255 (1).png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="d_item mt-2">
+            <div class="card sm_row_card">
+              <div class="card_body">
+                <p class="sm_row_title">CUSTOMERS</p>
+                <div class="tokens">
+                  <h1><img src="assets/img/Icons/Union.svg" alt="" /> 18</h1>
+                  <span></span>
+                </div>
+              </div>
+              <div class="card_body">
+                <img src="assets/img/Group 7255 (2).png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="d_item mt-2">
+            <p style="font-size: 16px">YOUR QR CODE</p>
+            <p class="mb-1">
+              Show this QR code to your customers, tips and OPIN tokens will be
+              credited to your account immediately
+            </p>
+            <img class="tip_3" src="./assets/img/TIPS 3.png" alt="" />
+            <a href="#" class="btn_s"
+              ><img
+                src="./assets/img/Icons/box-arrow-down.svg"
+                alt=""
+                style="margin-right: 10px"
+              />
+              Download as image</a
+            >
+            <a href="#" class="btn_s"
+              ><i class="fa-solid fa-print" style="margin-right: 10px"></i
+              >Print</a
+            >
+          </div>
+          <div class="d_item mt-2">
+            <p style="font-size: 16px">OPIN TOKENS</p>
+            <div class="card op_token_card">
+              <img src="assets/img/shopiing cart cartoon 1.png" alt="" />
+              <h2 class="mt-2 text_center">WHAT ARE OPIN TOKENS?</h2>
+              <p class="mt-2 text_center">
+                An OPIN token is a lottery token that never expires, accumulates
+                and offers the prospect of a lottery type windfall
+              </p>
+              <p class="mt-1 text_center">
+                OPIN tokens cost the tipping customer £0.25p and are added to
+                the cash tip
+              </p>
+              <p class="mt-1 text_center">
+                OPIN incentives customers to tip more generously as both the
+                customer and the person being tipped receive an equal amount of
+                tokens
+              </p>
+            </div>
+          </div>
+          <div class="d_item mt-2" style="background: #eaf0ff">
+            <p style="font-size: 16px">SPECIAL OFFER</p>
+            <h2>Deals available:</h2>
+            <p class="d_avail">BUY 25 OPIN TOKENS FOR £2.50</p>
+          </div>
+          <div class="d_item_card">
+            <img src="assets/img/Mobile in Hand Mockup 1.png" alt="" />
+            <h2 class="text_center">
+              Use your phone to receive instant tips from your customers
+            </h2>
+            <p class="mt-2 text_center">
+              Download your personalised QR code print it off, or order from our
+              range of merchandise
+            </p>
+            <p class="tag mt-1"><b>Tags:</b>#opinserve #opin #opinwear</p>
+          </div>
+          <div class="d_item mt-2">
+            <p style="font-size: 16px">TOP 10 OPIN HOLDERS</p>
+            <div class="item mt-2" style="background: #eaf0ff">
+              <p><span>25.</span>Stephen C (you)</p>
+              <p><img src="assets/img/Icons/Union.svg" alt="" />104</p>
+            </div>
+            <div class="item mt-2" style="background: #eaf0ff">
+              <p><span>1.</span>Jamie Br23</p>
+              <p><img src="assets/img/Icons/Union.svg" alt="" />200</p>
+            </div>
+            <div class="item mt-2" style="background: #f5f5f5">
+              <p><span>2.</span>PeterW%5</p>
+              <p><img src="assets/img/Icons/Union.svg" alt="" />198</p>
+            </div>
+            <div class="item mt-2" style="background: #eaf0ff">
+              <p><span>3.</span>A67Wallace</p>
+              <p><img src="assets/img/Icons/Union.svg" alt="" />198</p>
+            </div>
+            <div class="item mt-2" style="background: #f5f5f5">
+              <p><span>4.</span>MilloFooty</p>
+              <p><img src="assets/img/Icons/Union.svg" alt="" />197</p>
+            </div>
+            <div class="item mt-2" style="background: #eaf0ff">
+              <p><span>5.</span>QueenCatherine</p>
+              <p><img src="assets/img/Icons/Union.svg" alt="" />193</p>
+            </div>
+            <div class="item mt-2" style="background: #f5f5f5">
+              <p><span>6.</span>NotablePark</p>
+              <p><img src="assets/img/Icons/Union.svg" alt="" />184</p>
+            </div>
+            <div class="item mt-2" style="background: #eaf0ff">
+              <p><span>7.</span>Geo77Howd</p>
+              <p><img src="assets/img/Icons/Union.svg" alt="" />183</p>
+            </div>
+            <div class="item mt-2" style="background: #f5f5f5">
+              <p><span>8.</span>JulesWaitServe</p>
+              <p><img src="assets/img/Icons/Union.svg" alt="" />170</p>
+            </div>
+            <div class="item mt-2" style="background: #eaf0ff">
+              <p><span>9.</span>TempMe2</p>
+              <p><img src="assets/img/Icons/Union.svg" alt="" />168</p>
+            </div>
+            <div class="item mt-2" style="background: #f5f5f5">
+              <p><span>10.</span>SupaMax34</p>
+              <p><img src="assets/img/Icons/Union.svg" alt="" />167</p>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
     <!-- ============================== -->
     <script src="assets/js/jquery-3.6.4.min.js"></script>
@@ -59,6 +220,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.41.0/apexcharts.min.js"></script>
     <script src="assets/js/chart.js"></script>
     <script src="assets/js/style.js"></script>
-</body>
-
+  </body>
 </html>
