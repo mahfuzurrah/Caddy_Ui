@@ -19,7 +19,6 @@ var options = {
     width: 5,
     colors: "#fff",
   },
-  colors: colorPalette,
   yaxis: {
     show: false,
   },
@@ -34,13 +33,6 @@ var options = {
       spokes: {
         strokeWidth: 0,
       },
-    },
-  },
-  theme: {
-    monochrome: {
-      enabled: true,
-      shadeTo: "light",
-      shadeIntensity: 0.6,
     },
   },
 };
