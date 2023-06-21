@@ -5,6 +5,7 @@ var options = {
   chart: {
     width: 375,
     type: "polarArea",
+    colors: colorPalette,
   },
   labels: ["Cash Paid Out", "ROPIN Tokens", "Total Earnings"],
   fill: {
@@ -18,6 +19,7 @@ var options = {
     width: 5,
     colors: "#fff",
   },
+  colors: colorPalette,
   yaxis: {
     show: false,
   },

@@ -961,3 +961,7 @@ Dashboard Page
     align-items: center;
     gap: 10px;
 }
+
+.foreignObject{
+    width:100%;
+}
