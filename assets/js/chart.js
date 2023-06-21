@@ -1,4 +1,4 @@
-var colorPalette = ["#00D8B6", "#008FFB", "#FEB019"];
+var colorPalette = ["#EAF0FF", "#E0F0E6", "#FFF7ED"];
 
 var options = {
   series: [42, 47, 52],
@@ -9,12 +9,15 @@ var options = {
   labels: ["Cash Paid Out", "ROPIN Tokens", "Total Earnings"],
   fill: {
     opacity: 1,
+    colors: colorPalette,
+    stroke: {
+      colors: ['#000000']
+    }
   },
   stroke: {
-    width: 1,
-    colors: undefined,
+    width: 5,
+    colors: "#fff",
   },
-  colors: colorPalette,
   yaxis: {
     show: false,
   },
