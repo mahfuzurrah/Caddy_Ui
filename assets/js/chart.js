@@ -6,7 +6,7 @@ var options = {
     width: 340,
     type: "polarArea",
   },
-  labels: ["Cash Paid Out", "OPIN tokenss", "Total Earnings"],
+  labels: ["Cash Paid Out", "OPIN tokens", "Total Earnings"],
   fill: {
     opacity: 1,
   },
@@ -30,7 +30,7 @@ var options = {
       },
     },
   },
-  colors: colorPalette,
+  // colors: colorPalette,
 };
 
 var chart = new ApexCharts(document.querySelector("#chart"), options);
